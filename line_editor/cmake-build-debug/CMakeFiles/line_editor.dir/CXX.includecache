@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/Gergely/CLionProjects/line_editor/lineedit.h
+vector
+-
+list
+-
+string
+-
+
+C:/Users/Gergely/CLionProjects/line_editor/main.cpp
+lineedit.h
+C:/Users/Gergely/CLionProjects/line_editor/lineedit.h
+algorithm
+-
+iostream
+-
+iterator
+-
+list
+-
+string
+-
+vector
+-
+

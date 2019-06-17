@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/Gergely/CLionProjects/map_align/main.cpp
+iostream
+-
+mapalign.h
+C:/Users/Gergely/CLionProjects/map_align/mapalign.h
+string
+-
+algorithm
+-
+map
+-
+mapalign.h
+C:/Users/Gergely/CLionProjects/map_align/mapalign.h
+
+C:/Users/Gergely/CLionProjects/map_align/mapalign.h
+map
+-
+vector
+-
+

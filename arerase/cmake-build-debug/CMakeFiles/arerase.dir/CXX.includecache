@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/Gergely/CLionProjects/arerase/arerase.h
+vector
+-
+
+C:/Users/Gergely/CLionProjects/arerase/main.cpp
+iostream
+-
+numeric
+-
+algorithm
+-
+string
+-
+arerase.h
+C:/Users/Gergely/CLionProjects/arerase/arerase.h
+

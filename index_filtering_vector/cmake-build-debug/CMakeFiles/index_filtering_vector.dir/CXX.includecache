@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/Gergely/CLionProjects/index_filtering_vector/ifvec.h
+vector
+-
+
+C:/Users/Gergely/CLionProjects/index_filtering_vector/main.cpp
+iostream
+-
+numeric
+-
+ifvec.h
+C:/Users/Gergely/CLionProjects/index_filtering_vector/ifvec.h
+vector
+-
+algorithm
+-
+ifvec.h
+C:/Users/Gergely/CLionProjects/index_filtering_vector/ifvec.h
+string
+-
+functional
+-
+

@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/Gergely/CLionProjects/array_eraser_fb_solve/arerase.h
+vector
+-
+algorithm
+-
+iostream
+-
+
+C:/Users/Gergely/CLionProjects/array_eraser_fb_solve/main.cpp
+iostream
+-
+numeric
+-
+algorithm
+-
+string
+-
+arerase.h
+C:/Users/Gergely/CLionProjects/array_eraser_fb_solve/arerase.h
+

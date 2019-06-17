@@ -1,0 +1,3 @@
+C:/Users/Gergely/CLionProjects/map_align/cmake-build-debug/CMakeFiles/map_align.dir
+C:/Users/Gergely/CLionProjects/map_align/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/Gergely/CLionProjects/map_align/cmake-build-debug/CMakeFiles/rebuild_cache.dir

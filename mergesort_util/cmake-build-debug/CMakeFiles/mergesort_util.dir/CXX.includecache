@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/Gergely/CLionProjects/mergesort_util/main.cpp
+iostream
+-
+functional
+-
+msort.h
+C:/Users/Gergely/CLionProjects/mergesort_util/msort.h
+vector
+-
+string
+-
+algorithm
+-
+msort.h
+C:/Users/Gergely/CLionProjects/mergesort_util/msort.h
+
+C:/Users/Gergely/CLionProjects/mergesort_util/msort.h
+vector
+-
+algorithm
+-
+

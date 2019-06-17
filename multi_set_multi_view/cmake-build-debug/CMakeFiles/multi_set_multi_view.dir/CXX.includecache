@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/Gergely/CLionProjects/multi_set_multi_view/main.cpp
+iostream
+-
+functional
+-
+numeric
+-
+msmview.h
+C:/Users/Gergely/CLionProjects/multi_set_multi_view/msmview.h
+set
+-
+iterator
+-
+string
+-
+algorithm
+-
+msmview.h
+C:/Users/Gergely/CLionProjects/multi_set_multi_view/msmview.h
+
+C:/Users/Gergely/CLionProjects/multi_set_multi_view/msmview.h
+set
+-
+

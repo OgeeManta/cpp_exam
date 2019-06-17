@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/Gergely/CLionProjects/map_filter_view/main.cpp
+iostream
+-
+map
+-
+string
+-
+map_filt.h
+C:/Users/Gergely/CLionProjects/map_filter_view/map_filt.h
+algorithm
+-
+map_filt.h
+C:/Users/Gergely/CLionProjects/map_filter_view/map_filt.h
+numeric
+-
+
+C:/Users/Gergely/CLionProjects/map_filter_view/map_filt.h
+algorithm
+-
+
