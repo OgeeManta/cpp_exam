@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "C:/Users/Gergely/CLionProjects/mergesort_util/main.cpp" "C:/Users/Gergely/CLionProjects/mergesort_util/cmake-build-debug/CMakeFiles/mergesort_util.dir/main.cpp.obj"
+  "C:/Users/betum/cpp_exam/mergesort_util/main.cpp" "C:/Users/betum/cpp_exam/mergesort_util/cmake-build-debug/CMakeFiles/mergesort_util.dir/main.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

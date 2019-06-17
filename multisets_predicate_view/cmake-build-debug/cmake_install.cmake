@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/betum/CLionProjects/multisets_predicate_view
+# Install script for directory: C:/Users/betum/cpp_exam/multisets_predicate_view
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -40,5 +40,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "C:/Users/betum/CLionProjects/multisets_predicate_view/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "C:/Users/betum/cpp_exam/multisets_predicate_view/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

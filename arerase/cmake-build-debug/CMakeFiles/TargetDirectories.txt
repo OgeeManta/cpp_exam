@@ -1,3 +1,0 @@
-C:/Users/Gergely/CLionProjects/arerase/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/Users/Gergely/CLionProjects/arerase/cmake-build-debug/CMakeFiles/arerase.dir
-C:/Users/Gergely/CLionProjects/arerase/cmake-build-debug/CMakeFiles/rebuild_cache.dir

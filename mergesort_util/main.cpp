@@ -6,6 +6,17 @@
 #include <algorithm>
 #include "msort.h"
 
+static int n = 1;
+
+void print_ok(bool condition){
+    if( condition ){
+        std::cout << ::n << ". OK" << std::endl;
+    }else{
+        std::cout << ::n << ". NOT OK" << std::endl;
+    }
+    ::n++;
+}
+
 struct string_size_less
 {
 
@@ -39,12 +50,21 @@ int main()
     mergesort_util<int> um( v, max, false );
     um.split( 0, max - 1 );
 
+    print_ok(1 == x[2]);
+    print_ok(7 == x[1]);
+    print_ok(4 == x[3]);
+    print_ok(max - 1 == v[0]);
+    print_ok(max == v[1]);
+    print_ok(2 == v[max - 1]);
+
     if ( 1 == x[ 2 ] && 7 == x[ 1 ] && 4 == x[ 3 ] &&
          max - 1 == v[ 0 ] && max == v[ 1 ] && 2 == v[ max - 1 ] )
     {
       your_mark = s[ 2 ].size() - s[ 0 ].size();
     }
-    /* 3-as
+    // 3-as
+
+    std::cout << "3-as: " << std::endl;
     us.split( 0, 3 );
 
     ui.set_merge_on();
@@ -53,14 +73,21 @@ int main()
     mergesort_util<int> uv( v, max );
     uv.split( 0, max - 1 );
 
+    print_ok(1 == v[0]);
+    print_ok(max == v[max - 1]);
+    print_ok("C" == s[2]);
+    print_ok("Cobol" == s[1]);
+    print_ok(3 == x[your_mark]);
+    print_ok(7 == x[6]);
+
     if ( 1 == v[ 0 ] && max == v[ max - 1 ] &&
         "C" == s[ 2 ] && "Cobol" == s[ 1 ] &&
         3 == x[ your_mark ] && 7 == x[ 6 ] )
     {
       your_mark = x[ 0 ] + x[ 1 ];
     }
-    */
-    /* 4-es
+    // 4-es
+    std::cout << "4-es:" << std::endl;
     mergesort_util<int, std::greater<int> > vg( v, max );
     vg.sort();
 
@@ -68,13 +95,19 @@ int main()
 
     mergesort( x, sizeof( x ) / sizeof( x[ 0 ] ) );
 
+    print_ok("C" == s[0]);
+    print_ok("ABAP" == s[1]);
+    print_ok(v[0] == max);
+    print_ok(1 == x[0]);
+    print_ok(3 == x[2]);
+    print_ok(max/2 == v[max/2]);
+
     if ( "C" == s[ 0 ] && "ABAP" == s[ 1 ] && v[ 0 ] == max && 1 == x[ 0 ] &&
           3 == x[ 2 ] && max / 2 == v[ max / 2 ] )
     {
       your_mark = x[ your_mark ];
     }
-    */
-    /* 5-os
+
     std::vector<std::string> vsl( s, s + sizeof( s ) / sizeof( s[ 0 ] ) );
     mergesort( vsl, std::greater<std::string>() );
 
@@ -92,7 +125,6 @@ int main()
     {
       your_mark = vsl[ 1 ].size();
     }
-    */
     std::cout << "Your mark is " << your_mark;
     std::endl( std::cout );
 }

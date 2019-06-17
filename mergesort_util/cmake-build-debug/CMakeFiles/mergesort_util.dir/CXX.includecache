@@ -6,13 +6,13 @@
 
 #IncludeRegexTransform: 
 
-C:/Users/Gergely/CLionProjects/mergesort_util/main.cpp
+C:/Users/betum/cpp_exam/mergesort_util/main.cpp
 iostream
 -
 functional
 -
 msort.h
-C:/Users/Gergely/CLionProjects/mergesort_util/msort.h
+C:/Users/betum/cpp_exam/mergesort_util/msort.h
 vector
 -
 string
@@ -20,9 +20,9 @@ string
 algorithm
 -
 msort.h
-C:/Users/Gergely/CLionProjects/mergesort_util/msort.h
+C:/Users/betum/cpp_exam/mergesort_util/msort.h
 
-C:/Users/Gergely/CLionProjects/mergesort_util/msort.h
+C:/Users/betum/cpp_exam/mergesort_util/msort.h
 vector
 -
 algorithm

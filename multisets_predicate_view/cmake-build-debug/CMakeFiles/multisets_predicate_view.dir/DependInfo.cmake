@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "C:/Users/betum/CLionProjects/multisets_predicate_view/main.cpp" "C:/Users/betum/CLionProjects/multisets_predicate_view/cmake-build-debug/CMakeFiles/multisets_predicate_view.dir/main.cpp.obj"
+  "C:/Users/betum/cpp_exam/multisets_predicate_view/main.cpp" "C:/Users/betum/cpp_exam/multisets_predicate_view/cmake-build-debug/CMakeFiles/multisets_predicate_view.dir/main.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

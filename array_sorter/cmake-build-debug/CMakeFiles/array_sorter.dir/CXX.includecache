@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/betum/cpp_exam/array_sorter/arsorter.h
+algorithm
+-
+vector
+-
+
+C:/Users/betum/cpp_exam/array_sorter/main.cpp
+iostream
+-
+arsorter.h
+C:/Users/betum/cpp_exam/array_sorter/arsorter.h
+string
+-
+arsorter.h
+C:/Users/betum/cpp_exam/array_sorter/arsorter.h
+

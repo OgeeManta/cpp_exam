@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/betum/cpp_exam/multisets_predicate_view/main.cpp
+iostream
+-
+set
+-
+msetsview.h
+C:/Users/betum/cpp_exam/multisets_predicate_view/msetsview.h
+string
+-
+algorithm
+-
+msetsview.h
+C:/Users/betum/cpp_exam/multisets_predicate_view/msetsview.h
+functional
+-
+
+C:/Users/betum/cpp_exam/multisets_predicate_view/msetsview.h
+vector
+-
+set
+-
+

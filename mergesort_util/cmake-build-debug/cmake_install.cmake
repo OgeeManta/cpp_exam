@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/Gergely/CLionProjects/mergesort_util
+# Install script for directory: C:/Users/betum/cpp_exam/mergesort_util
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -40,5 +40,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "C:/Users/Gergely/CLionProjects/mergesort_util/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "C:/Users/betum/cpp_exam/mergesort_util/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
